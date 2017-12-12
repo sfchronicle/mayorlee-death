@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en-US">
   <head>
-    <title><%= json.project.seo_title %></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="__sync_contentCategory" content="meterA">
@@ -9,8 +8,6 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
 
     <%= !json.project.embedded ? t.include("partials/_paywall.html") : t.include("partials/_embedframe.html") %>
-
-    <%= t.include("partials/_head.html") %>
 
   </head>
 
